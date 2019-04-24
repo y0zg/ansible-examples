@@ -1,6 +1,6 @@
 acs ansible_ssh_host=192.168.1.10 ansible_ssh_user=testuser ansible_ssh_pass=testuser
 web1 ansible_ssh_host=192.168.1.10 ansible_ssh_user=testuser ansible_ssh_pass=testuser username=ansible_user 
-db1 ansible_ssh_host=192.168.33.30 
+db1 ansible_ssh_host=192.168.1.10 ansible_ssh_user=testuser ansible_ssh_pass=testuser
 [webservers]
 web1
 
